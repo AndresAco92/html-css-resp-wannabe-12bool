@@ -1,5 +1,8 @@
 /* SCREEN LG */
 .container{
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 100px;
 }
 
@@ -48,8 +51,14 @@ img {
 /* SCREEN MEDIO */
 @media all and (min-width: 768px) and (max-width: 991px){
   .container{
-    width: 991px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
+  }
+
+  #steps .col-xs-12.pd{
+    margin-top: 40px;
   }
 
   #lezioni .container, #why.grey{
@@ -75,7 +84,9 @@ img {
 /* SCREEN PICCOLO */
 @media all and (max-width: 767px){
   .container{
-    width: 767px;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: auto;
     margin-top: 0;
     padding: 10px;
   }
@@ -84,6 +95,10 @@ img {
     background-color: rgb(242, 242, 205);
   }
 
+  #steps .col-xs-12{
+    padding-top: 40px;
+  }
+  
   #why .container>.col-lg-12,
   #why .container>.col-lg-12,
   #why .container>.col-lg-12 {
