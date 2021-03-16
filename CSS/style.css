@@ -1,0 +1,101 @@
+/* SCREEN LG */
+.container{
+  margin-top: 100px;
+}
+
+#lezioni .container img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+
+#steps {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .container>.col-lg-12,
+#why .container>.col-lg-12,
+#why .container>.col-lg-12 {
+  margin-top: 80px;
+}
+
+#why .container img {
+  background-color: #428bca;
+  border-radius: 50%;
+}
+
+.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 200px;
+}
+
+/* SCREEN MEDIO */
+@media all and (min-width: 768px) and (max-width: 991px){
+  .container{
+    width: 991px;
+    margin-top: 30px;
+  }
+
+  #lezioni .container, #why.grey{
+    background-color: rgb(190, 245, 245);
+  }
+
+  #why .container>.col-lg-12,
+  #why .container>.col-lg-12,
+  #why .container>.col-lg-12 {
+    margin-top: 20px;
+  }
+
+  div{
+    font-size: 15px;
+  }
+
+  img {
+    height: 150px;
+  }
+}
+
+
+/* SCREEN PICCOLO */
+@media all and (max-width: 767px){
+  .container{
+    width: 767px;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  #lezioni .container, #why.grey{
+    background-color: rgb(242, 242, 205);
+  }
+
+  #why .container>.col-lg-12,
+  #why .container>.col-lg-12,
+  #why .container>.col-lg-12 {
+    margin-top: 20px;
+  }
+
+  div{
+    font-size: 24px;
+  }
+
+  img {
+    height: 180px;
+  }
+
+}
